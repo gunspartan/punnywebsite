@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 10px;
+  padding-top: 10px;
+  position: relative;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+}
+
+button {
+  color: #fff;
+  background: gray;
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background 0.5s;
+  text-transform: uppercase;
+}
