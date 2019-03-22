@@ -13,9 +13,17 @@ h1 {
   padding-top: 10px;
   position: relative;
 }
-.container {
+.pun {
   margin: 0 auto;
   padding: 0 10px;
+  position: relative;
+  text-align: center;
+}
+
+.submit {
+  margin: 0 auto;
+  padding: 0 10px;
+  padding-top: 250px;
   position: relative;
   text-align: center;
 }
