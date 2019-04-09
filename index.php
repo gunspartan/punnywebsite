@@ -28,7 +28,7 @@
       ?>
 
       <h2 id = pun></h2>
-      <form action="api/generatepun.php" method='POST'>
+      <form action="index.php" method='POST'>
         <button type="submit" name="newpun">New Pun</button>
     </div>
 
