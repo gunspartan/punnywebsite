@@ -36,3 +36,14 @@ button {
   transition: background 0.5s;
   text-transform: uppercase;
 }
+
+input[type="text"] {
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid gray;
+}
+
+input[type="text"]:focus {
+  width: 60%;
+}

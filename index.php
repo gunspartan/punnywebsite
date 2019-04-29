@@ -19,17 +19,18 @@
 
         if ($resultCheck > 0) {
           $randNum = mt_rand(1, $resultCheck);
-          $randPun = "SELECT * FROM pun WHERE id=$randNum";
+          $randPun = "SELECT * FROM pun WHERE id=$randNum;";
           $newResult = mysqli_query($conn, $randPun);
           $row = mysqli_fetch_assoc($newResult);
-          echo $row['title'] . '<br>';
-          echo $row['content'];
+          echo '<h1>' . $row['title'] . '<br>' . '<br>' . '</h1>';
+          echo '<h1>' . $row['content'] . '</h1>';
         }
       ?>
 
       <h2 id = pun></h2>
-      <form action="index.php" method='POST'>
+      <form action="index.php" method='GET'>
         <button type="submit" name="newpun">New Pun</button>
+      </form>
     </div>
 
     <div class= "submit">
@@ -40,6 +41,7 @@
         <input type="text" name="content" placeholder="Content">
         <br>
         <button type="submit" name="submit">Submit</button>
+      </form>
     </div>
   </body>
 
